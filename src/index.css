@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    background-color: #090d16;
+    color: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Prevents iPhone Safari from auto-zooming when you tap an input field */
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
